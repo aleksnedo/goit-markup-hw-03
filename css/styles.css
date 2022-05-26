@@ -11,9 +11,37 @@
   --bcg-color-items: #f5f4fa;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   color: var(--primery-text-color);
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  outline: 1px solid tomato;
 }
 
 .list {
@@ -38,6 +66,11 @@ body {
 }
 
 /* -----HEADER----- */
+
+.header {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 
 .logo {
   color: var(--secondary-text-color);
@@ -83,30 +116,34 @@ body {
 /* -----HERO----- */
 
 .hero {
+  text-align: center;
   background-color: var(--bcg-color-hero);
 }
 
 .hero-title {
+  margin-bottom: 30px;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--hero-title-white);
 }
 
 .hero-button {
+  display: inline-block;
+  border-radius: 4px;
+  padding: 10px 32px;
+  min-width: 200px;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
-  text-align: center;
   letter-spacing: 0.06em;
   color: var(--third-text-color);
   background-color: var(--color-accent);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border: none;
-  cursor: pointer;
 }
 
 .hero-button:hover,
@@ -115,6 +152,11 @@ body {
 }
 
 /* -----FEATURES----- */
+
+.features {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 
 .features-title {
   font-weight: 700;
@@ -133,6 +175,10 @@ body {
 
 /* -----EXAMPLES----- */
 
+.examples {
+  padding-bottom: 94px;
+}
+
 .examples-title {
   font-weight: 700;
   font-size: 36px;
@@ -145,6 +191,7 @@ body {
 /* -----TEAM----- */
 
 .team {
+  padding-bottom: 94px;
   background-color: var(--bcg-color-items);
 }
 
