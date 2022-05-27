@@ -23,11 +23,12 @@
   <body>
     <!-- Header -->
     <header class="header">
-      <div class="container">
+      <div class="container main-header">
         <nav class="header-nav">
           <a class="logo link" href="./index.html"
             ><span class="logo-accent">Web</span>Studio</a
           >
+
           <ul class="header-list list">
             <li class="header-item">
               <a class="header-link link current" href="./index.html">Студия</a>
@@ -40,7 +41,8 @@
             </li>
           </ul>
         </nav>
-        <ul class="header-list list">
+
+        <ul class="header-contacts list">
           <li class="header-item">
             <a class="header-mail link" href="mailto:info@devstudio.com"
               >info@devstudio.com</a
@@ -56,12 +58,16 @@
     </header>
     <!-- Main -->
     <main>
+      <!-- HERO -->
       <section class="hero">
-        <div class="container">
-          <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
+        <div class="container hero-content">
+          <h1 class="hero-title">
+            Эффективные решения <br />для вашего бизнеса
+          </h1>
           <button type="button" class="hero-button">Заказать услугу</button>
         </div>
       </section>
+      <!-- FEAUTERS -->
       <section class="features">
         <div class="container">
           <h2 class="visually-hidden">Особенности</h2>
@@ -97,6 +103,7 @@
           </ul>
         </div>
       </section>
+      <!-- EXAMPLES -->
       <section class="examples">
         <div class="container">
           <h2 class="examples-title">Чем мы занимаемся</h2>
@@ -128,49 +135,62 @@
           </ul>
         </div>
       </section>
+      <!-- TEAM -->
       <section class="team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-item list">
               <img
+                class="team-foto"
                 src="./images/face-1.jpg"
                 alt="Фотография"
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Игорь Демьяненко</h3>
-              <p class="team-position" lang="en">Product Designer</p>
+              <div class="team-content">
+                <h3 class="team-name">Игорь Демьяненко</h3>
+                <p class="team-position" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="team-item list">
               <img
+                class="team-foto"
                 src="./images/face-2.jpg"
                 alt="Фотография"
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Ольга Репина</h3>
-              <p class="team-position" lang="en">Frontend Developer</p>
+              <div class="team-content">
+                <h3 class="team-name">Ольга Репина</h3>
+                <p class="team-position" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item list">
               <img
+                class="team-foto"
                 src="./images/face-3.jpg"
                 alt="Фотография"
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Николай Тарасов</h3>
-              <p class="team-position" lang="en">Marketing</p>
+              <div class="team-content">
+                <h3 class="team-name">Николай Тарасов</h3>
+                <p class="team-position" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="team-item list">
               <img
+                class="team-foto"
                 src="./images/face-4.jpg"
                 alt="Фотография"
                 width="270"
                 height="260"
               />
-              <h3 class="team-name">Михаил Ермаков</h3>
-              <p class="team-position" lang="en">UI Designer</p>
+              <div class="team-content">
+                <h3 class="team-name">Михаил Ермаков</h3>
+                <p class="team-position" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -178,7 +198,7 @@
     </main>
     <!-- Footer -->
     <footer class="footer">
-      <div class="container">
+      <div class="container footer-content">
         <a class="logo-footer link" href="./index.html"
           ><span class="logo-accent">Web</span>Studio</a
         >
